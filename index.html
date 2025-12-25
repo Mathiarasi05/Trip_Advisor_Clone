@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TripAdvisor Clone</title>
+    <!-- Google Style Sheet For Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My Style Sheet -->
+    <link rel="Stylesheet" href="style.css" />
+    <!-- FONT AWESOME ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="navbar__logo">
+        <img src="Images/tripadvisor.png" alt="TripAdvisor Logo" />
+        <h2>Tripadvisor</h2>
+      </div>
+
+      <div class="navbar__menu">
+        <p><i class="fa-solid fa-hotel"></i>Discover</p>
+        <p><i class="fa-solid fa-utensils"></i> Trips</p>
+        <p><i class="fa-solid fa-plane"></i> Review</p>
+        <p><i class="fa-solid fa-map-location-dot"></i> More</p>
+      </div>
+
+      <div class="navbar__right">
+        <button class="btn-login">Sign in</button>
+      </div>
+    </div>
+
+    <!-- Main SECTION -->
+    <div class="main">
+      <h1>Where to?</h1>
+
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search destinations, hotels & more" />
+      </div>
+
+      <div class="main__categories">
+        <p><i class="fa-solid fa-bed"></i> Hotels</p>
+        <p><i class="fa-solid fa-utensils"></i> Restaurants</p>
+        <p><i class="fa-solid fa-plane-departure"></i> Flights</p>
+        <p><i class="fa-solid fa-car"></i> Car Hire</p>
+        <p><i class="fa-solid fa-ticket"></i> Attractions</p>
+      </div>
+    </div>
+
+    <div class="green-card-section">
+      <div class="green-card-content">
+        <img id="green-card-btn1" src="Images/boat.jpg" alt="image" />
+        <hr class="green-card-line" />
+
+        <button class="green-card-btn1">@Eddie J</button>
+
+        <div class="green-card-des">
+          <h1>Find things to do for everything you’re into</h1>
+          <p>Browse 400,000+ experiences and book with us.</p>
+          <button class="green-card-btn2">Book now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- interest-section -->
+
+    <div class="interest-section">
+      <h2>Find things to do by interest</h2>
+      <p>whatever you're into, we've got it</p>
+      <div class="interest-section__container">
+        <div class="interest-section__card">
+          <img src="Images/interest1.jpg" />
+          <h1>Outdoor</h1>
+        </div>
+        <div class="interest-section__card">
+          <img src="Images/interest2.jpg" />
+          <h1>Food</h1>
+        </div>
+        <div class="interest-section__card">
+          <img src="Images/interest3.jpg" />
+          <h1>Culture</h1>
+        </div>
+        <div class="interest-section__card">
+          <img src="Images/interest4.jpg" />
+          <h1>Water</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- BIG_CITIES -->
+
+    <div class="city-container">
+      <h2>Big cities, Big holiday cheer</h2>
+      <p>Eat, drink, shop, and be merry</p>
+      <div class="city-container__s1">
+        <div class="city-container__card">
+          <img src="Images/bigcity/caption.jpg" alt="img" /><br />
+          <i id="like-icon" class="fa-regular fa-heart"></i>
+          <button>Amsterdam</button>
+          <p>Amsterdam Light Festival Canal Crusie With Unlimited Drinks</p>
+          <p>4.9 🟢🟢🟢🟢🟢 (69)</p>
+          <p>from $3,439 per adult</p>
+        </div>
+        <div class="city-container__card">
+          <img src="Images/bigcity/brroklyn.jpg" alt="img" /><br />
+          <i id="like-icon" class="fa-regular fa-heart"></i>
+          <button>New York City</button>
+          <p>Dyker Heights Brooklyn Christmas Lights Tour</p>
+          <p>4.9 🟢🟢🟢🟢🟢 (460)</p>
+          <p>from $3,439 per adult</p>
+        </div>
+        <div class="city-container__card">
+          <img src="Images/bigcity/lisbon.jpg" alt="img" /><br />
+          <i id="like-icon" class="fa-regular fa-heart"></i>
+          <button>Lisbon</button>
+          <p>Lisbon: Fireworks, Music and Open Bar in New Year's Eve Cruise</p>
+          <p>4.9 🟢🟢🟢🟢🟢 (29)</p>
+          <p>from $16,803 per adult</p>
+        </div>
+        <div class="city-container__card">
+          <img src="Images/bigcity/sanfrancisco.jpg" alt="img" /><br />
+          <i id="like-icon" class="fa-regular fa-heart"></i>
+          <button>San Francisco</button>
+          <p>Holiday Lights Tour of San Francisco and New Year's Eve Cruise</p>
+          <p>4.9 🟢🟢🟢🟢🟢 (39)</p>
+          <p>from $7,803 per adult</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Iconic-Place-container -->
+
+    <div class="iconic-container">
+      <h2>Your next trip is waiting</h2>
+      <p><b>Iconic places you need to see</b></p>
+      <div class="iconic-container__s1">
+        <div class="iconic-container__card">
+          <img src="Images/iconic-place/paris.jpg" alt="" />
+          <h1>Paris, France</h1>
+        </div>
+        <div class="iconic-container__card">
+          <img src="Images/iconic-place/Las vegas.jpg" alt="" />
+          <h1>Las Vegas, NV</h1>
+        </div>
+        <div class="iconic-container__card">
+          <img src="Images/iconic-place/Newyork.jpg" alt="" />
+          <h1>New York City</h1>
+        </div>
+        <div class="iconic-container__card">
+          <img src="Images/iconic-place/London.jpg" alt="" />
+          <h1>London, UK</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- AD-Container -->
+
+    <div class="ad-container">
+      <div class="ad-container__s1">
+        <img src="Images/wander.jpg" alt="image" />
+        <div class="ad-container-content">
+          <p>Sponsored by <u>Wanderlab</u></p>
+          <h1>Watch The Wanderer</h1>
+          <p>
+            Tripadvisor’s award-winning travel series, now streaming on Amazon
+            Prime Video
+          </p>
+          <button>Learn more</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer-container">
+      <div class="footer-s1">
+        <div class="footer-content1">
+          <p>About Tripadvisor</p>
+          <p>About Us</p>
+          <p>Press</p>
+          <p>Resources and Policies</p>
+          <p>Careers</p>
+        </div>
+        <div class="footer-content2">
+          <p>Explore</p>
+          <p>Write a review</p>
+          <p>Add a Place</p>
+          <p>Join</p>
+          <p>Travellers' Choice</p>
+        </div>
+        <div class="footer-content3">
+          <p>Do Business With Us</p>
+          <p>Sponsored Placements</p>
+          <p>Advertise with Us</p>
+          <p>iPhone App</p>
+          <p>Android App</p>
+        </div>
+      </div>
+      <div class="footer-s2">
+        <img src="Images/tripadvisor.png" alt="TripAdvisor Logo" />
+        <div class="footer-s2-content">
+          <p>© 2025 Tripadvisor LLC All rights reserved.</p>
+          <u>Terms or Use</u>
+          <u>Privacy and Cookies Statement</u>
+          <u>Cookie Consent</u>
+          <u>Site Map</u>
+          <u>How the Site Works</u>
+          <u>Contact Us</u>
+          <u>Accessibility Statement</u>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
